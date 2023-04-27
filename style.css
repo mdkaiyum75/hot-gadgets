@@ -1,0 +1,161 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins,'sans-serif';
+
+} 
+
+html {
+    scroll-behavior: smooth;
+
+}
+p {
+    color: #838383;
+
+}
+.navbar {
+    font-weight: 500;
+    color: #838383;
+}
+.nav-item {
+    padding: 0 15px;
+}
+
+.logo {
+    width: 140px;
+    padding: 5px ;
+}
+.header-content {
+    line-height: 1.5;
+    margin-top:100px;
+
+}
+.header-content p {
+    font-size: 18px;
+}
+
+.carousel-indicators li {
+    background-color: #9E9E9E;
+    bottom: -50px;
+    width:12px;
+    height: 10px;
+    border-radius: 30px;
+    margin: 0 5px;
+    transition: 0.2s;
+  }
+  .carousel-indicators li.active{
+    transition: 0.3s all;
+    width:35px;
+    height: 10px;
+    background-color: orange;
+
+  }
+
+
+.best-img {
+
+}
+.icon {
+    background-color: blue;
+}
+
+.btn {
+    background-color: #000;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 25px;
+
+}
+
+.bg-2 {
+    width: 180px;
+    margin-left: -20px;
+    margin-top: -80px;
+}
+
+.products {
+    margin-top: 100px;
+}
+.section-title, .see-all{
+    margin-bottom:60px;
+}
+.see-all {
+    color: orange;
+    cursor: pointer;
+}
+.card-group {
+gap: 40px;
+}
+
+.card {
+    align-items: center;
+    padding:20px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+    margin-left: 5px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 1.5;
+
+}
+.card-img-top {
+    width: 80%;
+}
+
+.card .btn{
+    margin-top: 30px;
+}
+.card-title {
+    padding: 10px 0;
+}
+
+.categories {
+    margin-top: 100px;
+    
+}
+.categories .row {
+    align-items: center;
+    padding:100px 0;
+
+}
+
+.categories .container {
+    padding-top: 400px 0;
+}
+.cat-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.col-4 .cat-img {
+    margin-bottom: 50px;
+}
+
+.cat-title {
+    position: relative;
+    font-size: 30px;
+    padding:20px 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.cat-title::before {
+    content: "";
+
+    position: absolute;
+    top: 100%;
+    width: 40%;
+    left: 28%;
+    height: 8px;
+    border-radius: 10px;
+    background-color: orange;
+    /* background: linear-gradient(111.3deg, #9c27b0 9.6%, #00bcd4 93.6%); */
+  }
